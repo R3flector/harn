@@ -21,8 +21,15 @@ It works with [Orca](https://github.com/stablyai/orca) and any other terminal on
 
 ## Install
 
+Download an archive for your OS from [Releases](https://github.com/SingularityLab/harn/releases/latest)
+(Windows x64, Linux x64, macOS Apple Silicon and Intel). It contains `harn` and `harn-tray`; put them
+on your `PATH`. The binaries are not signed yet, so macOS Gatekeeper and Windows SmartScreen will ask
+before the first launch.
+
+Or build from source:
+
 ```sh
-cargo install --git https://github.com/SingularityLab/harn harn
+cargo install --git https://github.com/SingularityLab/harn harn harn-tray
 ```
 
 ## Use
